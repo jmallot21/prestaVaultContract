@@ -22,7 +22,9 @@ interface IERC20 {
 }
 */
 
-
+/**
+ * Token de test pour un déploiement local
+ */
 contract SampleToken is IERC20 {
     using SafeMath for uint256;
 
